@@ -27,24 +27,13 @@
             @endif
 
             <div class="content">
-                <div class="title m-b-md">
-                    Laravel
-                </div>
-
-                <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
 
                 <div class="row">
                     <div class="col s12 m6">
-                        <div class="card blue-grey darken-1">
+                        <div class="card blue-grey lighten-5">
                             <div class="card-content white-text">
-                                <span class="card-title">Card Title</span>
-                                <p>I am a very simple card. I am good at containing small bits of information.
+                                <span class="card-title black-text">Card Title</span>
+                                <p class="black-text">I am a very simple card. I am good at containing small bits of information.
                                     I am convenient because I require little markup to use effectively.</p>
                             </div>
                             <div class="card-action">
