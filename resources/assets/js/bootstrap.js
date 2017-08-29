@@ -10,8 +10,13 @@
 try {
     window.$ = window.jQuery = require('jquery');
 
-    //require('bootstrap-sass');
+    require('./materialize/bin/materialize.min');
 } catch (e) {}
+
+
+$(document).ready(function(){
+    $('.carousel.carousel-slider').carousel({fullWidth: true});
+});
 
 /**
  * We'll load the axios HTTP library which allows us to easily issue requests
