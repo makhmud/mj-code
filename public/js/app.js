@@ -10379,6 +10379,8 @@ try {
 
 $(document).ready(function () {
   $('.carousel.carousel-slider').carousel({ fullWidth: true });
+  $('.modal').modal();
+  $('.parallax').parallax();
 });
 
 /**

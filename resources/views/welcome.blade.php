@@ -78,6 +78,45 @@
 
     </div>
 
+    <!-- Element Showed -->
+    <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+        <a id="menu" class="waves-effect waves-light btn btn-large btn-floating" onclick="$('.tap-target').tapTarget('open')"><i class="material-icons">menu</i></a>
+    </div>
+    <!-- Tap Target Structure -->
+    <div class="tap-target" data-activates="menu">
+        <div class="tap-target-content">
+            <h5>Title</h5>
+            <p>A bunch of text</p>
+        </div>
+    </div>
+
+    <!-- Modal Trigger -->
+    <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
+
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal bottom-sheet">
+        <div class="modal-content">
+            <h4>Modal Header</h4>
+            <p>A bunch of text</p>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+        </div>
+    </div>
+
+
+    <div class="parallax-container">
+        <div class="parallax"><img src="https://lorempixel.com/1200/1200/food/1"></div>
+    </div>
+    <div class="section white">
+        <div class="row container">
+            <h2 class="header">Parallax</h2>
+            <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
+        </div>
+    </div>
+    <div class="parallax-container">
+        <div class="parallax"><img src="https://lorempixel.com/1200/1200/food/2"></div>
+    </div>
 
 
     <div style="height: 500px;"></div>
