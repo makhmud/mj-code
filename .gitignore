@@ -1,0 +1,11 @@
+.env
+/vendor
+/node_modules
+/public/storage
+/.idea
+Homestead.yaml
+Homestead.json
+*npm-debug.log*
+*~
+/public/mix-manifest.json
+composer.lock
